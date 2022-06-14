@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+     font-size: 100%;
+     background: #111111;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+.menu{
+    display: flex;
+    gap: 44px;
+}
+
+.header-button{
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    background: linear-gradient(270deg, #C21926 0%, #9E101A 97.65%);
+    font-family: 'Lato';
+    font-style: normal;
+    width: 170px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}

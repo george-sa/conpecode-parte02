@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@800&display=swap');
 
 * {
     margin: 0;
@@ -45,4 +47,42 @@ body {
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
+    border: none;
 }
+
+.testimonial{
+    padding-left: 135px;
+    padding-right: 82px;
+}
+
+.subtitle-presentation{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    color: #F44243;
+}
+
+.title-presentation{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    color: #FFFFFF;
+    font-size: 64px;
+    line-height: 96px;
+}
+
+.text-testimonial{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #91969A;
+    padding-top: 32px;
+    padding-bottom: 56px;
+}
+
+.tesimonial-information{
+    padding-left: 175px;
+    padding-top: 63px;
+}
+
